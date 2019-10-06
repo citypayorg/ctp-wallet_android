@@ -1,0 +1,36 @@
+﻿Use at your own risk! (Requires Android 4 or higher)
+
+<b>Have your Ctp always with you, in your pocket!</b> You pay by quickly scanning a QR code. As a merchant, you receive payments reliably and instantly. Ctp Wallet is the first mobile Ctp app, and arguably also the most secure!
+
+<b>FEATURES</b>
+
+• No registration, web service or cloud needed! This wallet is de-centralized and peer to peer.
+• Display of Ctp amount in CTP, mCTP and µCTP.
+• Conversion to and from national currencies.
+• Sending and receiving of Ctp via NFC, QR codes or Ctp URLs.
+• Address book for regularly used Ctp addresses.
+• When you're offline, you can still pay via Bluetooth.
+• System notification for received coins.
+• Sweeping of paper wallets (e.g. those used for cold storage).
+• App widget for Ctp balance.
+
+
+<b>CONTRIBUTE</b>
+
+Ctp Wallet is <b>open source</b> and <b>free software</b>. License: GPLv3
+https://www.gnu.org/licenses/gpl-3.0.en.html
+
+Our source code is available at GitHub:
+https://github.com/HashEngineering/ctp-wallet
+
+All translations are managed via Transifex:
+https://www.transifex.com/ctp/ctp-wallet/
+
+You can find more about Ctp at
+https://www.ctp.org/
+
+<b>TESTIMONIALS</b>
+
+• A recommended mobile wallet by https://www.ctp.org
+
+<i>Use at your own risk!</i>

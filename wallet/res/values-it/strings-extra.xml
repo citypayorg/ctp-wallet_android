@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+
+    <string name="send_coins_auto_lock_feasible">Questa transazione verrà eseguita immediatamente senza alcun costo aggiuntivo.</string>
+	<string name="send_coins_auto_lock_not_feasible">Questa transazione potrebbe richiedere diversi minuti per essere eseguita. Vuoi eseguirla istantaneamente per un extra %1$s%2$s?</string>
+	<string name="send_coins_instant_send_not_feasible">Questa transazione potrebbe richiedere diversi minuti per essere eseguita.</string>
+
+	<string name="options_paste_from_clipboard_title">Incolla dagli appunti</string>
+
+	<string name="transaction_row_message_own_instantx_lock_request_notsent">Questo pagamento non è ancora stato trasmesso.</string>
+	<string name="transaction_row_message_sent_to_single_peer">Pagamento inviato.</string>
+
+	<string name="regular_transaction_info_message">Questa transazione non è stata eseguita immediatamente.</string>
+
+	<string name="wallet_options_disconnect">Disconnesso</string>
+
+	<string name="network_monitor_masternodes_title">Masternodes</string>
+	<string name="export_keys_dialog_title_to_seed">Visualizza la frase di recupero</string>
+	<string name="import_keys_dialog_title_from_seed">Ripristina con la frase di recupero</string>
+	<string name="backup_to_seed_wallet_dialog_message">Questa è la tua frase di recupero. Si prega di trascriverla.</string>
+	<string name="backup_wallet_to_seed_dialog_warning">NON lasciare che qualcuno veda la tua frase di recupero o avranno la possibilità di spendere i tuoi Ctp.</string>
+	<string name="backup_to_seed_wallet_dialog_enter_pin_message">Il tuo portafoglio è protetto da un PIN. Digita il tuo PIN e clicca \"Mostra\" per visualizzare la tua frase di recupero.</string>
+    <string name="import_keys_from_seed_dialog_message">Digita qui la tua frase di recupero.</string>
+	<string name="import_export_keys_dialog_password_phrase">La frase di recupero va qui.</string>
+	<string name="preferences_report_issue_summary">Raccogli informazioni sul tuo problema e invia tramite email la tua segnalazione agli sviluppatori.</string>
+	<string name="navigation_configuration">Configurazione</string>
+    <string name="button_copy_address">Copia indirizzo</string>
+	<string name="request_coins_clipboard_address_msg">Indirizzo Ctp copiato negli appunti</string>
+	<string name="backup_wallet_to_seed_show_recovery_phrase">Mostra</string>
+	<string name="restore_wallet_from_invalid_seed_warning_message">%s parola non valida.</string>
+
+	<string name="send_coins_options_fee_category_zero">Senza Costi</string>
+	<string name="send_coins_fragment_hint_fee_zero">Nessun costo verrà addebitato. Usa \"Senza Costi\" soltanto se non hai bisogno di un tempo di conferma rapido.</string>
+
+	<string name="wallet_uri_handler_public_key_request_dialog_msg">L\'applicazione %s vorrebbe ricevere la tua Master Public Key. Questa può essere utilizzata per tenere traccia del tuo portafoglio; non può essere utilizzata per spostare i tuoi Ctp.</string>
+	<string name="wallet_uri_handler_address_request_dialog_msg">L\'applicazione %s richiede un idirizzo cosi\' che tu possa ricevere pagamenti. Vuoi autorizzarla?</string>
+
+	<string name="wallet_lock_unlock">Sblocca</string>
+	<string name="wallet_lock_unlock_wallet">Sblocca portafoglio</string>
+	<string name="wallet_lock_unlock_to_see_txs_title">Portafoglio bloccato.</string>
+	<string name="wallet_lock_unlock_to_see_txs_txt">Clicca l\'icona del lucchetto sopra per sbloccare il tuo portafoglio e vedere la cronologia delle transazioni.</string>
+	<string name="wallet_lock_unlock_dialog_title">Sblocca il tuo portafoglio </string>
+	<string name="wallet_lock_unlock_dialog_message">Il tuo portafoglio è protetto da un PIN. Digita il tuo PIN e clicca \"Sblocca\" per continuare.</string>
+	<string name="wallet_lock_reset_wallet_title">Resetta portafoglio</string>
+	<string name="wallet_lock_reset_wallet_message">Sei sicuro? Il tuo portafoglio verrà eliminato e tutti i tuoi Ctp andranno persi.\n\nL\'unico modo per recuperare i tuoi Ctp è con un file di backup o una frase di recupero.</string>
+
+	<string name="wallet_lock_wallet_disabled">Portafoglio disabilitato</string>
+	<string name="wallet_lock_try_again">Riprova ancora in %1$d %2$s</string>
+	<string name="wallet_lock_reset">Reset</string>
+	<string name="wallet_lock_wrong_pin">PIN errato! %s</string>
+
+	<plurals name="wallet_lock_attempts_remaining">
+		<item quantity="one">%dtentativi rimanenti</item>
+		<item quantity="other">%d tentativi rimanenti</item>
+	</plurals>
+
+	<plurals name="minute">
+		<item quantity="one">minuti</item>
+		<item quantity="other">minuti</item>
+	</plurals>
+	
+	<plurals name="hour">
+		<item quantity="one">ore</item>
+		<item quantity="other">ore</item>
+	</plurals>
+
+	<string name="encrypt_new_key_chain_upgrade_button">Aggiorna </string>
+	<string name="encrypt_new_key_chain_dialog_title">Aggiorna il tuo portafoglio</string>
+	<string name="encrypt_new_key_chain_dialog_message">Il tuo portafoglio verrà aggiornato per supportare l\'importazione e l\'esportazione verso più app.</string>
+	<string name="encrypt_new_key_chain_enter_pin_dialog_message">Devi immettere il tuo PIN per terminare il processo di  aggiornamento</string>
+	<string name="pin_code_required_dialog_message">Questa applicazione ora richiede un PIN per spendere o visualizzare il bilancio e transazioni.</string>
+    <string name="backup_wallet_seed_private_key_written_down_box">Ho trascritto la frase di recupero</string>
+	
+	<string name="change_exchange_currency_code_message">La tua moneta locale è%1$s,ma la moneta locale della \"app\" è %2$s.Desideri cambiarla a%1$so lasciarla a%2$s?</string>
+	<string name="change_to">cambiare a %s</string>
+	<string name="leave_as">Lasciare come %s</string>
+
+	<string name="remind_later">Ricordamelo più tardi</string>
+	<string name="backup_now">Effettua il backup ora</string>
+	
+	<string name="notification_transactions_channel_name">Transazioni</string>
+	<string name="notification_transactions_channel_description">Ricevi avvisi per le transazioni in entrata.</string>
+	<string name="notification_synchronization_channel_name">Sincronizzazione</string>
+	<string name="notification_synchronization_channel_description">Notifica quando la \"app\" è sincronizzata con la rete.</string>
+
+	<string name="fastest_payment_network_dialog_title">I tuoi Soldi , In qualsiasi modo</string>
+	<string name="fastest_payment_network_dialog_message">Invia e ricevi Ctp istantaneamente senza costi aggiuntivi</string>
+	<string name="fastest_payment_network_dialog_button">Fatto</string>
+
+    <string name="net_type_indicator" />
+
+	<string name="unlock_with_fingerprint">Usa la tua impronta digitale per sbloccare.</string>
+	<string name="unlock_with_fingerprint_error">Impronta digitale non riconosciuta, prova ancora.</string>
+	<string name="unlock_with_fingerprint_error_max_attempts">Numero massimo di tentativi raggiunto . Per cortesia prova più tardi.</string>
+	<string name="or_unlock_with_fingerprint">Oppure usa la tua impronta digitale per sbloccare.</string>
+	<string name="enable_fingerprint">Abilita impronta digitale</string>
+	<string name="touch_fingerprint_sensor">Tocca il sensore dell\'impronta digitale.</string>
+	<string name="touch_fingerprint_to_enable">Toccare il sensore di impronte digitali per abilitare lo sblocco con l\'impronta digitale.</string>
+	<string name="exchange_rate_missing">Questo pagamento è troppo vecchio per ottenere il valore fiat</string>
+
+	<string name="preferences_enable_payment_request_summary">Utilizza il protocollo di pagamento dal codice QR per i pagamenti avviati </string>
+	<string name="preferences_enable_payment_request_title">BIP70 per scan-to-pay</string>
+</resources>

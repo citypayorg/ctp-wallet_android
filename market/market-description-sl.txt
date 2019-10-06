@@ -1,0 +1,22 @@
+Nosite svoje novce vedno s seboj v žepu. Plačila so hitra, le prečitate QR-kodo. Tudi prejemanje plačil je zanesljivo in takojšnje. Ctp Wallet je prva mobilna aplikacija za Ctp in najbrž tudi najbolj varna!
+
+LASTNOSTI:
+
+• Potrebna ni nobena registracija, spletna storitev ali oblak! Ta denarnica deluje povsem decentralizirano in vrstniško.
+• Prikaz zneskov v CTP, mCTP ali µCTP.
+• Samodejna pretvorba v evre in druge lokalne valute.
+• Pošiljanje in prejemanje Ctpov prek NFC, QR-kod ali Ctp URL-jev.
+• Zasebni imenik Ctp naslovov.
+• Z Ctpom lahko plačujete tudi, če nimate povezave.
+• Sistemska obvestila ob prejetih novcih.
+• Widget, ki prikazuje stanje v denarnici.
+
+Več o Ctpu lahko zveste na
+https://Ctp.org/sl/
+
+Če želite prispevati k aplikaciji Ctp Wallet, se nam pridružite na
+https://github.com/schildbach/Ctp-wallet
+
+Licenca: GPLv3
+Uporaba na lastno odgovornost!
+http://www.gnu.org/licenses/gpl-3.0.en.html

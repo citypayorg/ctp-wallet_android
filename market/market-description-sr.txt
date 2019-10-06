@@ -1,0 +1,36 @@
+Koristite na sopstvenu odgovornost! (Zahtevana verzija Androida - 4 ili viša)
+
+<b>Da vaš Ctp bude uvek uz vas, u vašem džepu!</b>Plaćanje vršite tako što na brzinu skenirate QR kod. Kao trgovac, primićete uplate pouzdano i trenutno. Ctp novčanik je prva Ctp mobilna aplikacija, a takodje i najsigurnija!
+
+<b>KARAKTERISTIKE</b>
+
+• Registracija, web servis ili cloud nisu potrebni! Novčanik je decentralizovan i funkcioniše po peer to peer principu.
+• Prikaz Ctp iznosa u CTP, mCTP i µCTP. 
+• Razmena u i iz nacionalne valute.
+• Slanje i primanje Ctp-a preko NFC, QR kodova ili Ctp URL-ova.
+• Adresar često korišćenih Ctp adresa.
+• Možete platiti i kada ste offline, preko Bletooth-a.
+• Sistemska obaveštenja za primljene novčiće.
+• Prebacivanje i brisanje sa papirnih novčanika (npr. novčanika korišćenih za "hladno" skladištenje).
+• Widget za aplikaciju koji pokazuje količinu Ctp-a.
+
+
+<b>DOPRINESITE PROJEKTU</b>
+
+Ctp novčanik je <b>open source</b> i <b>besplatan softver</b>. Licenca: GPLv3
+https://www.gnu.org/licenses/gpl-3.0.en.html
+
+Naš source code možete naći na GitHub-u:
+https://github.com/HashEngineering/ctp-wallet
+
+Svi prevodi su organizovani kroz Transifex:
+https://www.transifex.com/ctp/ctp-wallet/
+
+Više o Ctp-u možete naći na
+https://www.ctp.org/
+
+<b>PREPORUKE</b>
+
+• Preporučeni mobilni novčanik od strane https://www.ctp.org
+
+<i>Koristite na sopstvenu odgovornost!</i>

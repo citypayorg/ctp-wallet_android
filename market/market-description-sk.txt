@@ -1,0 +1,36 @@
+Používanie na vlastné riziko! (Vyžaduje Android 4 alebo novší
+
+<b>Majte Ctp neustále pri sebe vo svojom vrecku!</b> Naskenujte QR kód a rýchlo zaplaťte. Ako obchodník obdržíte platby takmer okamžite a spoľahlivo. Elektronická peňaženka Ctp je prvá mobilná Ctp aplikácia a pravdepodobne tiež tou najnebezpečnejšou.
+
+<b>VLASTNOSTI</b>
+
+• Nie je potrebná žiadna registrácia, webová služba ani cloud! Peňaženka je decentralizovaná a funguje na báze peer-to-peer siete.
+• Ctp si môžete zobraziť buď ako CTP, mCTP alebo µCTP.
+• Konverzia na bežné peniaze alebo opačne.
+• Ctp je možné posielať aj prijímať pomocou NFC, QR kódmi alebo Ctp URL.
+• Adresár pre často používané Ctp adresy.
+• Keď ste offline, môžete stále zaplatiť cez Bluetooth.
+• Systémové oznámenie pri obdržaní mincí.
+• Výber z papierových peňaženiek (napr. tých, ktoré sú uložené offline).
+• Widget aplikácia pro stav Ctp účtu.
+
+
+<b>ZAPOJTE SA</b>
+
+Peňaženka Ctp má <b>otvorený zdrojový kód</b> a je to <b>bezplatný softwér</b>. Licencia: GPLv3
+https://www.gnu.org/licenses/gpl-3.0.en.html
+
+Náš zdrojový kód je dostupný na GitHube:
+https://github.com/HashEngineering/ctp-wallet
+
+Všetky preklady prebiehajú cez Transifex:
+https://www.transifex.com/ctp/ctp-wallet/
+
+O Ctp sa môžete dozvedieť viac na
+https://www.ctp.org/
+
+<b>DOPORUČENIA</b>
+
+Mobilná peňaženka doporučená https://www.ctp.org
+
+<i>Používajte na vlastní riziko.</i>

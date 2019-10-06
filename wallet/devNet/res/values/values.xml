@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Ctp Wallet [devnet]</string>
+	<string name="app_name_short">Ctp [devnet]</string>
+
+	<string-array name="preferences_precision_values">
+		<item>8</item>
+		<item>6</item>
+		<item>4</item>
+		<item>2/3</item>
+		<item>0/6</item>
+	</string-array>
+	<string-array name="preferences_precision_labels">
+		<item>tCTP, 8 decimal places</item>
+		<item>tCTP, 6 decimal places</item>
+		<item>tCTP, 4 decimal places</item>
+		<item>mtCTP, 2 decimal places</item>
+		<item>µtCTP, no decimal places</item>
+	</string-array>
+	<string-array name="preferences_block_explorer_values">
+		<item>https://test.insight.ctp.siampm.com/</item>
+		<item>http://test.explorer.ctp.org/</item>
+	</string-array>
+	<string-array name="preferences_block_explorer_labels">
+		<item>Insight TestNet Block Explorer</item>
+		<item>Ctp Block Explorer (Official Testnet)</item>
+	</string-array>
+
+</resources>

@@ -1,0 +1,36 @@
+Foloseşte pe propria răspundere! (Necesită Android 4 sau mai recent)
+
+<b>Poți avea Ctp mereu cu tine, în propriul buzunar!</b> Plătește prin scanarea rapidă a unui cod QR. Ca și comerciant, primești plăți în mod fiabil și instantaneu. Portofelul Ctp este prima aplicație mobilă Ctp și, fără îndoială, cea mai sigură!
+
+<b>CARACTERISTICI</b>
+
+• Nu este nevoie de înregistrare, serviciu web sau cloud! Acest portofel este descentralizat și peer to peer.
+• Afișarea sumelor Ctp în CTP, mCTP și μCTP.
+• Conversie către și din valute naționale.
+• Trimiterea și primirea Ctp prin NFC, coduri QR sau adrese URL Ctp.
+• Carte de adrese pentru adresele Ctp utilizate în mod regulat.
+• Când ești offline, poți plăti în continuare prin Bluetooth.
+• Notificarea sistemului pentru monedele primite.
+• Sweeping pentru portofelele de hârtie (de exemplu, cele utilizate pentru depozitarea la rece).
+• Widget pentru soldul Ctp.
+
+
+<b>CONTRIBUIE</b>
+
+Portofelul Ctp este <b>open source</b> si <b>free software</b>. Licența: GPLv3
+https://www.gnu.org/licenses/gpl-3.0.en.html
+
+Codul sursă este disponibil pe GitHub:
+https://github.com/HashEngineering/ctp-wallet
+
+Toate traducerile sunt gestionate prin intermediul Transifex:
+https://www.transifex.com/ctp/ctp-wallet/
+
+Poți afla mai mult despre Ctp la
+https://www.ctp.org/
+
+<b>MĂRTURII</b>
+
+• Un portofel mobil recomandat de https://www.ctp.org
+
+<i>Folosește pe propria răspundere!</i>
