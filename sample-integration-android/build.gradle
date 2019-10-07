@@ -8,7 +8,11 @@ dependencies {
     implementation(project(':integration-android')) {
         exclude(group: 'com.google.android', module: 'android')
     }
-    implementation "org.ctpj:ctpj-core:$ctpjVersion"
+    //implementation "org.citypay.ctpj:ctpj-core:$ctpjVersion"
+    //implementation fileTree(dir: 'D:\\bitDev\\ctp-wallet_android\\ext_jar\\', include: ['*.jar'])
+    //implementation 'D:\\bitDev\\ctp-wallet_android\\ext_jar\\org.citypay.ctpj:ctpj-core:0.16.3'
+    //implementation 'D:\\bitDev\\ctp-wallet_android\\ext_jar\\ctpj-core-0.16.3.jar:ctpj-core:$ctpjVersion'
+    api fileTree(include: ['*.jar'], dir: 'libs')
 }
 
 android {
