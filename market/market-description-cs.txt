@@ -21,10 +21,10 @@ Peněženka Ctp je <b>open source</b> a <b>bezplatný software</b>. Licence: GPL
 https://www.gnu.org/licenses/gpl-3.0.en.html
 
 Náš zdrojový kód je dostupný na GitHub:
-https://github.com/HashEngineering/ctp-wallet
+https://github.com/CityPayOrg/ctp-wallet_android
 
 Všechny překlady probíhají na stránkách Transifex:
-https://www.transifex.com/ctp/ctp-wallet/
+https://www.transifex.com/ctp/ctp-wallet_android/
 
 You can find more about Ctp at
 https://www.ctp.org/

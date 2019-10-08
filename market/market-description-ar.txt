@@ -21,10 +21,10 @@
 https://www.gnu.org/licenses/gpl-3.0.en.html
 
 لدينا شفرة المصدر هو متاح في جيثب:
-https://github.com/HashEngineering/ctp-wallet
+https://github.com/CityPayOrg/ctp-wallet_android
 
 تتم إدارة جميع الترجمات عبر ترانسيفيكس:
-https://www.transifex.com/ctp/ctp-wallet/
+https://www.transifex.com/ctp/ctp-wallet_android/
 
 يمكنك العثور على المزيد حول داش في
 https://www.ctp.org/

@@ -21,10 +21,10 @@ Ctp-portemonnee is <b>open source</b> en <b>gratis software</b>. GPLv3-licentie
 https://www.gnu.org/licenses/gpl-3.0.en.html
 
 De broncode is beschikbaar op GitHub:
-https://github.com/HashEngineering/ctp-wallet
+https://github.com/CityPayOrg/ctp-wallet_android
 
 Alle vertalingen worden beheerd via Transifex:
-https://www.transifex.com/ctp/ctp-wallet/
+https://www.transifex.com/ctp/ctp-wallet_android/
 
 Meer informatie over Ctp op
 https://www.ctp.org/

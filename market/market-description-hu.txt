@@ -11,10 +11,10 @@ A Bitcoin Wallet <b>nyílt forráskódú</b> és <b>ingyenes szoftver</b>. Licen
 https://www.gnu.org/licenses/gpl-3.0.en.html
 
 A forráskódunk elérhető a GitHub-on:
-https://github.com/HashEngineering/darkcoin-wallet
+https://github.com/CityPayOrg/darkcoin-wallet
 
 Minden fordítást a Transifex kezelt:
-https://www.transifex.com/ctp/ctp-wallet/
+https://www.transifex.com/ctp/ctp-wallet_android/
 
 
 <b>AJÁNLÓLEVELEK</b>

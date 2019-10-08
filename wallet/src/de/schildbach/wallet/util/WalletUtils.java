@@ -67,7 +67,7 @@ import android.text.SpannableStringBuilder;
 import android.text.format.DateUtils;
 import android.text.style.TypefaceSpan;
 
-import static org.ctp.wallet.common.Constants.CHAR_THIN_SPACE;
+import static org.citypay.wallet.common.Constants.CHAR_THIN_SPACE;
 
 /**
  * @author Andreas Schildbach

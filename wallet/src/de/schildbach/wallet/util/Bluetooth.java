@@ -23,7 +23,7 @@ import java.util.UUID;
 
 import javax.annotation.Nullable;
 
-import org.ctp.wallet.common.util.GenericUtils;
+import org.citypay.wallet.common.util.GenericUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

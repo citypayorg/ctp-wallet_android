@@ -25,8 +25,8 @@ import org.bitcoinj.utils.Fiat;
 
 import de.schildbach.wallet.Constants;
 
-import org.ctp.wallet.common.ui.CurrencyAmountView;
-import org.ctp.wallet.common.ui.CurrencyAmountView.Listener;
+import org.citypay.wallet.common.ui.CurrencyAmountView;
+import org.citypay.wallet.common.ui.CurrencyAmountView.Listener;
 
 import android.view.View;
 

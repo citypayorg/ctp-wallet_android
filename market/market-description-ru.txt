@@ -21,10 +21,10 @@
 https://www.gnu.org/licenses/gpl-3.0.en.html
 
 Наш исходный код доступен на GitHub:
-https://github.com/HashEngineering/ctp-wallet
+https://github.com/CityPayOrg/ctp-wallet_android
 
 Переводы на другие языки управляются через Transifex:
-https://www.transifex.com/ctp/ctp-wallet/
+https://www.transifex.com/ctp/ctp-wallet_android/
 
 Вы можете узнать больше о Ctp на
 https://www.ctp.org/ru

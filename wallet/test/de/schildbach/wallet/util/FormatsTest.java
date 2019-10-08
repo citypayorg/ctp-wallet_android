@@ -25,7 +25,7 @@ import static org.junit.Assert.assertTrue;
 
 import java.util.regex.Matcher;
 
-import org.ctp.wallet.common.ui.Formats;
+import org.citypay.wallet.common.ui.Formats;
 import org.junit.Test;
 
 /**

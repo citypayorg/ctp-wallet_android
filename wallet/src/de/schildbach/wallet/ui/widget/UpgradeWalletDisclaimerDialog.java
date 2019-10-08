@@ -27,7 +27,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import org.ctp.wallet.common.ui.DialogBuilder;
+import org.citypay.wallet.common.ui.DialogBuilder;
 
 import de.schildbach.wallet.ui.BackupWalletToSeedDialogFragment;
 import de.schildbach.wallet_test.R;

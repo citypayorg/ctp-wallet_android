@@ -1,5 +1,5 @@
 -keepattributes Exceptions, InnerClasses
--keep public class org.ctp.wallet.common.** {
+-keep public class org.citypay.wallet.common.** {
     public protected *;
 }
--keep public interface org.ctp.wallet.common.** {*;}
+-keep public interface org.citypay.wallet.common.** {*;}

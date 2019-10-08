@@ -9,7 +9,7 @@
     <RelativeLayout style="@style/uphold_confirmation_dialog_currency_row"
         android:layout_marginTop="@dimen/list_entry_padding">
 
-        <org.ctp.wallet.common.ui.CurrencyTextView
+        <org.citypay.wallet.common.ui.CurrencyTextView
             android:id="@+id/uphold_withdrawal_amount"
             tools:text="0.00"
             style="@style/uphold_confirmation_dialog_currency_text" />
@@ -31,7 +31,7 @@
 
     <RelativeLayout style="@style/uphold_confirmation_dialog_currency_row">
 
-        <org.ctp.wallet.common.ui.CurrencyTextView
+        <org.citypay.wallet.common.ui.CurrencyTextView
             android:id="@+id/uphold_withdrawal_fee"
             tools:text="0.00"
             style="@style/uphold_confirmation_dialog_currency_text" />
@@ -54,7 +54,7 @@
     <RelativeLayout style="@style/uphold_confirmation_dialog_currency_row"
         android:layout_marginBottom="20dp">
 
-        <org.ctp.wallet.common.ui.CurrencyTextView
+        <org.citypay.wallet.common.ui.CurrencyTextView
             android:id="@+id/uphold_withdrawal_total"
             tools:text="0.00"
             style="@style/uphold_confirmation_dialog_currency_text" />

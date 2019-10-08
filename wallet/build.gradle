@@ -42,6 +42,7 @@ dependencies {
     //--------------------------------------------------
     //implementation 'ctpj-core-0.16.3.jar'
     api fileTree(include: ['*.jar'], dir: 'libs')
+    implementation "org.dashj:dashj-core:$ctpjVersion"
     //--------------------------------------------------
     implementation 'com.google.protobuf:protobuf-java:3.4.0'
     implementation 'com.google.guava:guava:27.0.1-android'
@@ -154,16 +155,16 @@ android {
     flavorDimensions "default"
     productFlavors {
         beta {
-            applicationId = "hashengineering.ctp.wallet.beta"
+            applicationId = "org.citypay.wallet.beta"
         }
         prod {
-            applicationId = "hashengineering.darkcoin.wallet"
+            applicationId = "org.darkcoin.wallet"
         }
         _testNet3 {
-            applicationId = "hashengineering.darkcoin.wallet_test"
+            applicationId = "org.darkcoin.wallet_test"
         }
         devNet {
-            applicationId = "hashengineering.darkcoin.wallet.devnet"
+            applicationId = "org.darkcoin.wallet.devnet"
         }
     }
     externalNativeBuild {

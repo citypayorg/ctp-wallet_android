@@ -21,10 +21,10 @@
 https://www.gnu.org/licenses/gpl-3.0.en.html
 
 کدهای ما در گیت‌هاب موجود است:
-https://github.com/HashEngineering/ctp-wallet
+https://github.com/CityPayOrg/ctp-wallet_android
 
 ترجمه‌ها از طریق سامانه ترنسیفکس صورت می‌گیرد:
-https://www.transifex.com/ctp/ctp-wallet/
+https://www.transifex.com/ctp/ctp-wallet_android/
 
 برای کسب اطلاعات بیشتر می‌توانید به این نشانی مراجعه کنید
 https://www.ctp.org/

@@ -21,7 +21,7 @@ import java.util.Set;
 
 import javax.annotation.Nullable;
 
-import org.ctp.wallet.common.Configuration;
+import org.citypay.wallet.common.Configuration;
 import de.schildbach.wallet.WalletApplication;
 import de.schildbach.wallet.service.BlockchainState;
 import de.schildbach.wallet.service.BlockchainState.Impediment;

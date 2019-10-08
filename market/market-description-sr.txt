@@ -21,10 +21,10 @@ Ctp novčanik je <b>open source</b> i <b>besplatan softver</b>. Licenca: GPLv3
 https://www.gnu.org/licenses/gpl-3.0.en.html
 
 Naš source code možete naći na GitHub-u:
-https://github.com/HashEngineering/ctp-wallet
+https://github.com/CityPayOrg/ctp-wallet_android
 
 Svi prevodi su organizovani kroz Transifex:
-https://www.transifex.com/ctp/ctp-wallet/
+https://www.transifex.com/ctp/ctp-wallet_android/
 
 Više o Ctp-u možete naći na
 https://www.ctp.org/

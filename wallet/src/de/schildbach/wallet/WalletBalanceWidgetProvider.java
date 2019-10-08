@@ -24,7 +24,7 @@ import org.bitcoinj.utils.Fiat;
 import org.bitcoinj.utils.MonetaryFormat;
 import org.bitcoinj.wallet.Wallet;
 import org.bitcoinj.wallet.Wallet.BalanceType;
-import org.ctp.wallet.common.Configuration;
+import org.citypay.wallet.common.Configuration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -33,8 +33,8 @@ import de.schildbach.wallet.ui.RequestCoinsActivity;
 import de.schildbach.wallet.ui.SendCoinsQrActivity;
 import de.schildbach.wallet.ui.WalletActivity;
 import de.schildbach.wallet.ui.send.SendCoinsActivity;
-import org.ctp.wallet.common.util.GenericUtils;
-import org.ctp.wallet.common.util.MonetarySpannable;
+import org.citypay.wallet.common.util.GenericUtils;
+import org.citypay.wallet.common.util.MonetarySpannable;
 import de.schildbach.wallet_test.R;
 
 import android.app.PendingIntent;
@@ -51,7 +51,7 @@ import android.text.style.ForegroundColorSpan;
 import android.view.View;
 import android.widget.RemoteViews;
 
-import static org.ctp.wallet.common.Constants.PREFIX_ALMOST_EQUAL_TO;
+import static org.citypay.wallet.common.Constants.PREFIX_ALMOST_EQUAL_TO;
 
 /**
  * @author Andreas Schildbach

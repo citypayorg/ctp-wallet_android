@@ -21,10 +21,10 @@
 https://www.gnu.org/licenses/gpl-3.0.en.html
 
 可以在GitHub查看我们的源代码：
-https://github.com/HashEngineering/ctp-wallet
+https://github.com/CityPayOrg/ctp-wallet_android
 
 所有翻译经由Transifex管理注入：
-https://www.transifex.com/ctp/ctp-wallet/
+https://www.transifex.com/ctp/ctp-wallet_android/
 
 你可以在这里找到更多达世币信息
 https://www.ctp.org/

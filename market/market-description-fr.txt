@@ -21,10 +21,10 @@ Ctp Wallet est un <b>logiciel libre open source</b>. Licence : GPLv3
 https://www.gnu.org/licenses/gpl-3.0.en.html
 
 Notre code source est disponible sur GitHub :
-https://github.com/HashEngineering/ctp-wallet
+https://github.com/CityPayOrg/ctp-wallet_android
 
 Les traductions sont gérées par Transifex :
-https://www.transifex.com/ctp/ctp-wallet/
+https://www.transifex.com/ctp/ctp-wallet_android/
 
 Plus d'informations sur Ctp sur le site
 https://www.ctp.org/

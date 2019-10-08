@@ -21,10 +21,10 @@ La cartera Ctp es <b>código abierto</b> y <b>software libre</b>. Licencia: GPLv
 https://www.gnu.org/licenses/gpl-3.0.en.html
 
 Nuestro código fuente esta disponible en GitHub:
-https://github.com/HashEngineering/ctp-wallet
+https://github.com/CityPayOrg/ctp-wallet_android
 
 Toda las traudcciones estan gestionadas por Transifex:
-https://www.transifex.com/ctp/ctp-wallet/
+https://www.transifex.com/ctp/ctp-wallet_android/
 
 Puedes encontrar mas información sobre Ctp en
 https://www.ctp.org/

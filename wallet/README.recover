@@ -93,7 +93,7 @@ RECOVERING FROM PROTOBUF WALLET FORMAT
 
 We need wallet-tool from ctpj. First, in a working directory, let's get ctpj:
 
-	git clone -b release-0.13 https://github.com/HashEngineering/ctpj.git
+	git clone -b release-0.13 https://github.com/CityPayOrg/ctpj.git
 
 Make sure everything is compiled and ready to go by using once:
 

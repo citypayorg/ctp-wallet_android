@@ -38,9 +38,9 @@ import org.bitcoinj.utils.ExchangeRate;
 import org.bitcoinj.utils.MonetaryFormat;
 import org.bitcoinj.wallet.DefaultCoinSelector;
 import org.bitcoinj.wallet.Wallet;
-import org.ctp.wallet.common.ui.CurrencyTextView;
-import org.ctp.wallet.common.ui.DialogBuilder;
-import org.ctp.wallet.common.ui.Formats;
+import org.citypay.wallet.common.ui.CurrencyTextView;
+import org.citypay.wallet.common.ui.DialogBuilder;
+import org.citypay.wallet.common.ui.Formats;
 
 import de.schildbach.wallet.Constants;
 import de.schildbach.wallet.WalletApplication;
@@ -67,7 +67,7 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import static org.ctp.wallet.common.Constants.PREFIX_ALMOST_EQUAL_TO;
+import static org.citypay.wallet.common.Constants.PREFIX_ALMOST_EQUAL_TO;
 
 /**
  * @author Andreas Schildbach

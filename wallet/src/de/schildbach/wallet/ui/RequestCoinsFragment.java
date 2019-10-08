@@ -27,11 +27,11 @@ import org.bitcoinj.protocols.payments.PaymentProtocol;
 import org.bitcoinj.uri.BitcoinURI;
 import org.bitcoinj.uri.BitcoinURIParseException;
 import org.bitcoinj.wallet.Wallet;
-import org.ctp.wallet.common.ui.CurrencyAmountView;
+import org.citypay.wallet.common.ui.CurrencyAmountView;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import org.ctp.wallet.common.Configuration;
+import org.citypay.wallet.common.Configuration;
 import de.schildbach.wallet.Constants;
 import de.schildbach.wallet.WalletApplication;
 import de.schildbach.wallet.offline.AcceptBluetoothService;

@@ -28,7 +28,7 @@ import org.bitcoinj.core.VerificationException;
 import org.bitcoinj.uri.BitcoinURI;
 import org.bitcoinj.uri.BitcoinURIParseException;
 import org.bitcoinj.wallet.Wallet;
-import org.ctp.wallet.common.ui.DialogBuilder;
+import org.citypay.wallet.common.ui.DialogBuilder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

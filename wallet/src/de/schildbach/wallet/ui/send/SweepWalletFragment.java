@@ -49,14 +49,14 @@ import org.bitcoinj.wallet.SendRequest;
 import org.bitcoinj.wallet.Wallet;
 import org.bitcoinj.wallet.Wallet.BalanceType;
 import org.bitcoinj.wallet.WalletTransaction;
-import org.ctp.wallet.common.ui.CurrencyTextView;
-import org.ctp.wallet.common.ui.DialogBuilder;
+import org.citypay.wallet.common.ui.CurrencyTextView;
+import org.citypay.wallet.common.ui.DialogBuilder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.google.common.collect.ComparisonChain;
 
-import org.ctp.wallet.common.Configuration;
+import org.citypay.wallet.common.Configuration;
 import de.schildbach.wallet.Constants;
 import de.schildbach.wallet.WalletApplication;
 import de.schildbach.wallet.data.DynamicFeeLoader;

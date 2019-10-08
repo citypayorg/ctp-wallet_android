@@ -3,16 +3,16 @@ FILES
 Your wallet contains your private keys and various transaction related metadata. It is stored in app-private
 storage:
 
-	Mainnet: /data/data/hashengineering.darkcoin.wallet/files/wallet-protobuf (MODE_PRIVATE)
-	Testnet: /data/data/hashengineering.darkcoin.wallet_test/files/wallet-protobuf-testnet (MODE_WORLD_READABLE | MODE_WORLD_WRITEABLE)
+	Mainnet: /data/data/citypay.darkcoin.wallet/files/wallet-protobuf (MODE_PRIVATE)
+	Testnet: /data/data/citypay.darkcoin.wallet_test/files/wallet-protobuf-testnet (MODE_WORLD_READABLE | MODE_WORLD_WRITEABLE)
 
 The wallet file format is not compatible to wallet.dat (Satoshi client). Rather, it uses a custom protobuf format
 which should be compatible between clients using ctpj.
 
 Certain actions cause automatic rolling backups of your wallet to app-private storage:
 
-	Mainnet: /data/data/hashengineering.darkcoin.wallet/files/key-backup-protobuf (MODE_PRIVATE)
-	Testnet: /data/data/hashengineering.darkcoin.wallet_test/files/key-backup-protobuf-testnet (MODE_PRIVATE)
+	Mainnet: /data/data/citypay.darkcoin.wallet/files/key-backup-protobuf (MODE_PRIVATE)
+	Testnet: /data/data/citypay.darkcoin.wallet_test/files/key-backup-protobuf-testnet (MODE_PRIVATE)
 
 Your wallet can be manually backed up to and restored from external storage:
 
@@ -27,15 +27,15 @@ itself to restore from the backup, see the separate README.recover guide.
 The current fee rate for each of the fee categories (economic, normal, priority) is cached in
 app-private storage:
 
-    Mainnet: /data/data/hashengineering.darkcoin.wallet/files/fees.txt
-    Testnet: /data/data/hashengineering.darkcoin.wallet_test/files/fees-testnet.txt
+    Mainnet: /data/data/citypay.darkcoin.wallet/files/fees.txt
+    Testnet: /data/data/citypay.darkcoin.wallet_test/files/fees-testnet.txt
 
 
 DEBUGGING
 
 Wallet file for Testnet can be pulled from an (even un-rooted) device using
 
-	adb pull /data/data/hashengineering.darkcoin.wallet/files/wallet-protobuf-testnet
+	adb pull /data/data/citypay.darkcoin.wallet/files/wallet-protobuf-testnet
 
 Log messages can be viewed by
 
@@ -82,10 +82,10 @@ Finally, you can build Ctp Wallet and sign it with your development key. Again i
 use
 
 	# first time only
-	git clone -b master https://github.com/HashEngineering/ctp-wallet.git ctp-wallet
+	git clone -b master https://github.com/CityPayOrg/ctp-wallet_android.git ctp-wallet_android
 
 	# each time
-	cd ctp-wallet
+	cd ctp-wallet_android
 	git pull
     gradle clean assemble_testNet3Debug -x test
 
@@ -95,7 +95,7 @@ To install the app on your Android device, use
     sudo apt install android-tools-adb
 
 	# each time
-	adb install wallet/build/outputs/apk/ctp-wallet-_testNet3-debug.apk
+	adb install wallet/build/outputs/apk/ctp-wallet_android-_testNet3-debug.apk
 
 If installing fails, make sure "Developer options" and "USB debugging" are enabled on your Android device, and an ADB
 connection is established.
@@ -112,16 +112,16 @@ wallet file is protected against access from non-root users. In the code reposit
 the 'prod' flavor.
 
 	# each time
-	cd ctp-wallet
+	cd ctp-wallet_android
 	git pull
     gradle clean build assembleProdRelease -x test
 
-The resulting production release version will be at:  wallet/build/outputs/apk/ctp-wallet-prod-release-unsigned.apk
+The resulting production release version will be at:  wallet/build/outputs/apk/ctp-wallet_android-prod-release-unsigned.apk
 
 BUILDING ALL FLAVORS
 
 	# each time
-	cd ctp-wallet
+	cd ctp-wallet_android
 	git pull
     gradle clean build -x test
 
@@ -137,7 +137,7 @@ TRANSLATIONS
 
 The source language is English. Translations for all languages except German happen on Transifex:
 
-	https://www.transifex.com/ctp/ctp-wallet/
+	https://www.transifex.com/ctp/ctp-wallet_android/
 
 The english resources are pushed to Transifex. Changes are pulled and committed to the git
 repository from time to time. It can be done by manually downloading the files, but using the "tx"
@@ -192,7 +192,7 @@ CTPJ
 
 Ctp Wallet uses ctpj for Ctp specific logic:
 
-    (ctpj) https://github.com/HashEngineering/ctpj
+    (ctpj) https://github.com/CityPayOrg/ctpj
 	forked from (bitcoinj)  https://bitcoinj.github.io/
 
 

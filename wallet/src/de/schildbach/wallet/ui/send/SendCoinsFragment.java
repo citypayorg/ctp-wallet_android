@@ -18,7 +18,7 @@
 package de.schildbach.wallet.ui.send;
 
 import static com.google.common.base.Preconditions.checkNotNull;
-import static org.ctp.wallet.common.Constants.CHAR_CHECKMARK;
+import static org.citypay.wallet.common.Constants.CHAR_CHECKMARK;
 
 import java.io.FileNotFoundException;
 import java.io.InputStream;
@@ -55,11 +55,11 @@ import org.bitcoinj.wallet.Wallet.BalanceType;
 import org.bitcoinj.wallet.Wallet.CouldNotAdjustDownwards;
 import org.bitcoinj.wallet.Wallet.DustySendRequested;
 import org.bitcoinj.wallet.ZeroConfCoinSelector;
-import org.ctp.wallet.common.Configuration;
-import org.ctp.wallet.common.ui.CurrencyAmountView;
-import org.ctp.wallet.common.ui.DialogBuilder;
-import org.ctp.wallet.common.util.GenericUtils;
-import org.ctp.wallet.common.util.MonetarySpannable;
+import org.citypay.wallet.common.Configuration;
+import org.citypay.wallet.common.ui.CurrencyAmountView;
+import org.citypay.wallet.common.ui.DialogBuilder;
+import org.citypay.wallet.common.util.GenericUtils;
+import org.citypay.wallet.common.util.MonetarySpannable;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.spongycastle.crypto.params.KeyParameter;

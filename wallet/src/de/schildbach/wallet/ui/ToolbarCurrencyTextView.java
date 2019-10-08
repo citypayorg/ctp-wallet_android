@@ -21,7 +21,7 @@ import android.content.Context;
 import android.support.v4.content.ContextCompat;
 import android.util.AttributeSet;
 
-import org.ctp.wallet.common.ui.CurrencyTextView;
+import org.citypay.wallet.common.ui.CurrencyTextView;
 
 import de.schildbach.wallet_test.R;
 

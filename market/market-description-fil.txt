@@ -21,10 +21,10 @@ Ang Ctp Wallet ay <b>open source</b> at <b>free software</b>. Lisensya: GPLv3
 https://www.gnu.org/licenses/gpl-3.0.en.html
 
 Ang aming source code ay makukuha sa Github:
-https://github.com/HashEngineering/ctp-wallet
+https://github.com/CityPayOrg/ctp-wallet_android
 
 Ang lahat ng pagsasalin ay pinangangasiwaan sa pamamagitaan ng Transifex:
-https://www.transifex.com/ctp/ctp-wallet/
+https://www.transifex.com/ctp/ctp-wallet_android/
 
 Makikita ang ibang pang impormasyon tungkol sa Ctp sa
 https://www.ctp.org/

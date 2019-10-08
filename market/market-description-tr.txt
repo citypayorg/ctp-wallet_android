@@ -21,10 +21,10 @@ Ctp Wallet <b>açık kaynak kodlu</b> <b>ücretsiz bir yazılımdır</b>. Lisans
 https://www.gnu.org/licenses/gpl-3.0.en.html
 
 Kaynak kodumuz GitHub'da mevcuttur:
-https://github.com/HashEngineering/ctp-wallet
+https://github.com/CityPayOrg/ctp-wallet_android
 
 Tüm çeviriler Transifex aracılığıyla yönetilmektedir:
-https://www.transifex.com/ctp/ctp-wallet/
+https://www.transifex.com/ctp/ctp-wallet_android/
 
 Ctp hakkında daha fazlası için
 https://www.ctp.org/

@@ -4,7 +4,7 @@ import android.support.annotation.Nullable;
 
 import com.squareup.moshi.Moshi;
 
-import org.ctp.wallet.common.data.BigDecimalAdapter;
+import org.citypay.wallet.common.data.BigDecimalAdapter;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -28,7 +28,7 @@ import android.support.v4.os.CancellationSignal;
 import android.view.LayoutInflater;
 import android.view.View;
 
-import org.ctp.wallet.common.ui.DialogBuilder;
+import org.citypay.wallet.common.ui.DialogBuilder;
 
 import de.schildbach.wallet.WalletApplication;
 import de.schildbach.wallet.ui.widget.FingerprintView;

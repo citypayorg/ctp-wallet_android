@@ -18,7 +18,7 @@
 package de.schildbach.wallet.data;
 
 import org.bitcoinj.wallet.Wallet;
-import org.ctp.wallet.common.Configuration;
+import org.citypay.wallet.common.Configuration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

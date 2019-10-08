@@ -27,12 +27,12 @@ import java.io.InputStreamReader;
 import org.bitcoinj.crypto.ChildNumber;
 import org.bitcoinj.wallet.Wallet;
 import org.bitcoinj.wallet.Wallet.BalanceType;
-import org.ctp.wallet.common.ui.DialogBuilder;
+import org.citypay.wallet.common.ui.DialogBuilder;
 
 import com.google.common.base.Charsets;
 import com.google.common.collect.ImmutableList;
 
-import org.ctp.wallet.common.Configuration;
+import org.citypay.wallet.common.Configuration;
 import de.schildbach.wallet.Constants;
 import de.schildbach.wallet.WalletApplication;
 import de.schildbach.wallet.ui.widget.UpgradeWalletDisclaimerDialog;

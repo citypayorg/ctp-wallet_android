@@ -27,9 +27,9 @@ import android.support.annotation.Nullable;
 
 import org.bitcoinj.core.Address;
 import org.bitcoinj.wallet.Wallet;
-import org.ctp.wallet.common.ui.DialogBuilder;
-import org.ctp.wallet.integration.uphold.ui.UpholdAccountActivity;
-import org.ctp.wallet.integration.uphold.ui.UpholdSplashActivity;
+import org.citypay.wallet.common.ui.DialogBuilder;
+import org.citypay.wallet.integration.uphold.ui.UpholdAccountActivity;
+import org.citypay.wallet.integration.uphold.ui.UpholdSplashActivity;
 
 import java.util.Set;
 

@@ -2,7 +2,7 @@ package de.schildbach.wallet.ui;
 
 import android.content.SharedPreferences;
 
-import org.ctp.wallet.common.Configuration;
+import org.citypay.wallet.common.Configuration;
 
 public class CanAutoLockGuard implements SharedPreferences.OnSharedPreferenceChangeListener {
 

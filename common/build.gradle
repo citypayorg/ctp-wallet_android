@@ -36,6 +36,9 @@ dependencies {
     //implementation 'D:\\bitDev\\ctp-wallet_android\\ext_jar\\org.citypay.ctpj:ctpj-core:0.16.3'
     //implementation 'D:\\bitDev\\ctp-wallet_android\\ext_jar\\ctpj-core-0.16.3.jar:ctpj-core:$ctpjVersion'
     api fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.annotation:annotation:1.1.0'  // 2019-10-08
+    implementation "org.dashj:dashj-core:$ctpjVersion"
+
 
     //Retrofit + OkHttp
     api 'com.squareup.okhttp:okhttp:2.7.5'

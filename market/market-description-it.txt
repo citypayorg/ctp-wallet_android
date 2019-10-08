@@ -21,10 +21,10 @@ Il portafoglio Ctp è<b>open source</b>e<b>free software</b>. Licenza: GPLv3
 https://www.gnu.org/licenses/gpl-3.0.en.html
 
 Il nostro codice sorgente è disponibile su GitHub:
-https://github.com/HashEngineering/ctp-wallet
+https://github.com/CityPayOrg/ctp-wallet_android
 
 Tutte le traduzioni sono gestite via Transifex:
-https://www.transifex.com/ctp/ctp-wallet/
+https://www.transifex.com/ctp/ctp-wallet_android/
 
 Per ulteriori informazioni su Ctp visita:
 https://www.ctp.org/

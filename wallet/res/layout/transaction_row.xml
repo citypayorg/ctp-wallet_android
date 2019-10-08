@@ -86,7 +86,7 @@
             
         </LinearLayout>
 
-        <org.ctp.wallet.common.ui.CurrencyTextView
+        <org.citypay.wallet.common.ui.CurrencyTextView
             android:id="@+id/transaction_row_value"
             style="@style/MontserratSemiBold.B.14"
             android:layout_toLeftOf="@id/transaction_row_menu"
@@ -94,7 +94,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
-        <org.ctp.wallet.common.ui.CurrencyTextView
+        <org.citypay.wallet.common.ui.CurrencyTextView
             android:id="@id/transaction_row_fiat"
             android:layout_alignTop="@id/transaction_row_address_container"
             android:layout_toLeftOf="@id/transaction_row_menu"
@@ -135,7 +135,7 @@
                     style="@style/MontserratMedium.MG.12"/>
 
 
-                <org.ctp.wallet.common.ui.CurrencyTextView
+                <org.citypay.wallet.common.ui.CurrencyTextView
                     android:id="@+id/transaction_row_fee"
                     android:layout_alignParentEnd="true"
                     android:layout_alignParentRight="true"

@@ -75,11 +75,11 @@ import org.bitcoinj.core.VersionedChecksummedBytes;
 import org.bitcoinj.crypto.ChildNumber;
 import org.bitcoinj.wallet.Wallet;
 import org.bitcoinj.wallet.Wallet.BalanceType;
-import org.ctp.wallet.common.Configuration;
-import org.ctp.wallet.common.ui.DialogBuilder;
-import org.ctp.wallet.integration.uphold.data.UpholdClient;
-import org.ctp.wallet.integration.uphold.ui.UpholdAccountActivity;
-import org.ctp.wallet.integration.uphold.ui.UpholdSplashActivity;
+import org.citypay.wallet.common.Configuration;
+import org.citypay.wallet.common.ui.DialogBuilder;
+import org.citypay.wallet.integration.uphold.data.UpholdClient;
+import org.citypay.wallet.integration.uphold.ui.UpholdAccountActivity;
+import org.citypay.wallet.integration.uphold.ui.UpholdSplashActivity;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;

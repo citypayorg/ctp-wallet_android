@@ -1,8 +1,8 @@
 -keepattributes Exceptions, InnerClasses
--keep class org.ctp.wallet.integration.uphold.** {
+-keep class org.citypay.wallet.integration.uphold.** {
     public protected private *;
 }
--keep interface org.ctp.wallet.integration.uphold.** {*;}
+-keep interface org.citypay.wallet.integration.uphold.** {*;}
 
 #OkHttp
 -dontwarn com.squareup.okhttp.**

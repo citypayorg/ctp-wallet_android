@@ -198,10 +198,10 @@
             </intent-filter>
 
         </activity>
-        <activity android:name="org.ctp.wallet.integration.uphold.ui.UpholdSplashActivity"
+        <activity android:name="org.citypay.wallet.integration.uphold.ui.UpholdSplashActivity"
             android:theme="@style/My.Theme.ChildActivity"
             android:launchMode="singleTask"/>
-        <activity android:name="org.ctp.wallet.integration.uphold.ui.UpholdAccountActivity"
+        <activity android:name="org.citypay.wallet.integration.uphold.ui.UpholdAccountActivity"
             android:theme="@style/My.Theme.ChildActivity"/>
 
         <provider

@@ -11,7 +11,7 @@
         android:gravity="center"
         android:orientation="vertical">
 
-        <org.ctp.wallet.common.ui.CurrencyTextView
+        <org.citypay.wallet.common.ui.CurrencyTextView
             android:id="@+id/wallet_balance_btc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -29,7 +29,7 @@
             android:visibility="gone"
             style="@style/MontserratMedium"/>
 
-        <org.ctp.wallet.common.ui.CurrencyTextView
+        <org.citypay.wallet.common.ui.CurrencyTextView
             android:id="@+id/wallet_balance_local"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

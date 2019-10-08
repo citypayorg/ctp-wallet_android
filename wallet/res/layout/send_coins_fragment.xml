@@ -124,7 +124,7 @@
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content">
 
-				<org.ctp.wallet.common.ui.CurrencyAmountView
+				<org.citypay.wallet.common.ui.CurrencyAmountView
 					android:id="@+id/send_coins_amount_ctp"
 					android:layout_width="0px"
 					android:layout_height="wrap_content"
@@ -140,9 +140,9 @@
 						style="@style/MontserratRegular"
 						tools:ignore="TextFields" />
 
-				</org.ctp.wallet.common.ui.CurrencyAmountView>
+				</org.citypay.wallet.common.ui.CurrencyAmountView>
 
-				<org.ctp.wallet.common.ui.CurrencyAmountView
+				<org.citypay.wallet.common.ui.CurrencyAmountView
 					android:id="@+id/send_coins_amount_local"
 					android:layout_width="0px"
 					android:layout_height="wrap_content"
@@ -158,7 +158,7 @@
 						style="@style/MontserratRegular"
 						tools:ignore="TextFields" />
 
-				</org.ctp.wallet.common.ui.CurrencyAmountView>
+				</org.citypay.wallet.common.ui.CurrencyAmountView>
 
 			</LinearLayout>
 

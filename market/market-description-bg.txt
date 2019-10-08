@@ -21,10 +21,10 @@ Ctp портфейл е <b>отворен код</b>и <b>безплатен с�
 https://www.gnu.org/licenses/gpl-3.0.en.html
 
 Нашият изходен код е достъпен в GitHub:
-https://github.com/HashEngineering/ctp-wallet
+https://github.com/CityPayOrg/ctp-wallet_android
 
 Всички преводи се управляват от Transifex:
-https://www.transifex.com/ctp/ctp-wallet/
+https://www.transifex.com/ctp/ctp-wallet_android/
 
 Може да намерите повече за Ctp на
 https://www.ctp.org/

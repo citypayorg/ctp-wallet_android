@@ -21,10 +21,10 @@ Ctp Wallet คือ <b>เปิด source</b>และ <b>ฟรีซอฟ�
 https://www.gnu.org/licenses/gpl-3.0.en.html
 
 แหล่งโค้ดของเราอยู่ที่ GitHub:
-https://github.com/HashEngineering/ctp-wallet
+https://github.com/CityPayOrg/ctp-wallet_android
 
 การแปลภาษาทั้งหมดถูกจัดการผ่าน Transifex
-https://www.transifex.com/ctp/ctp-wallet/
+https://www.transifex.com/ctp/ctp-wallet_android/
 
 คุณสามารถค้นหาเพิ่มเติมเกี่ยวกับ Ctp ได้ที่ 
 https://www.ctp.org/

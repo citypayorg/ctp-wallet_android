@@ -38,8 +38,8 @@ import org.bitcoinj.core.Transaction.Purpose;
 import org.bitcoinj.core.TransactionConfidence.ConfidenceType;
 import org.bitcoinj.utils.Threading;
 import org.bitcoinj.wallet.Wallet;
-import org.ctp.wallet.common.Configuration;
-import org.ctp.wallet.common.ui.DialogBuilder;
+import org.citypay.wallet.common.Configuration;
+import org.citypay.wallet.common.ui.DialogBuilder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
