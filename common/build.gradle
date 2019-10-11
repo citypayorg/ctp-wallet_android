@@ -35,18 +35,29 @@ dependencies {
     //implementation fileTree(dir: 'D:\\bitDev\\ctp-wallet_android\\ext_jar\\', include: ['*.jar'])
     //implementation 'D:\\bitDev\\ctp-wallet_android\\ext_jar\\org.citypay.ctpj:ctpj-core:0.16.3'
     //implementation 'D:\\bitDev\\ctp-wallet_android\\ext_jar\\ctpj-core-0.16.3.jar:ctpj-core:$ctpjVersion'
-    api fileTree(include: ['*.jar'], dir: 'libs')
+    //api fileTree(include: ['*.jar'], dir: 'libs')
+//    api fileTree(dir: 'ctpj')
+    //api fileTree(include: ['*.jar'], dir: 'libs')
+    //compile group: 'org.citypay.ctpj', name: 'ctpj-core', version: '0.16.3'
+    //compile files('libs\\ctpj-core-0.16.3.jar')
+    //api fileTree(include: ['ctpj-core-0.16.3.jar'], dir: 'libs')
+    implementation project(path: ':core')
+//    implementation project(path: ':core')  // 20191011
+//    implementation project(path: ':bls')  // 20191011
+    //compile group: 'org.bitcoinj', name: 'bitcoinj-core', version: '0.15.5'
     implementation 'androidx.annotation:annotation:1.1.0'  // 2019-10-08
-    implementation "org.dashj:dashj-core:$ctpjVersion"
+    //api fileTree(dir: 'ctpj')
+    //implementation "org.dashj:dashj-core:$ctpjVersion"
+
 
 
     //Retrofit + OkHttp
     api 'com.squareup.okhttp:okhttp:2.7.5'
     api 'com.squareup.okhttp:logging-interceptor:2.7.5'
     api 'com.squareup.moshi:moshi:1.3.1'
-    api 'com.squareup.retrofit2:retrofit:2.3.0'
-    api 'com.squareup.retrofit2:converter-moshi:2.3.0'
-    api 'com.squareup.retrofit2:converter-scalars:2.3.0'
+    api 'com.squareup.retrofit2:retrofit:2.6.2'
+    api 'com.squareup.retrofit2:converter-moshi:2.6.2'
+    api 'com.squareup.retrofit2:converter-scalars:2.6.2'
 
     //Android Arch
     api "android.arch.lifecycle:extensions:1.1.1"

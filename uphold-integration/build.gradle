@@ -36,10 +36,17 @@ dependencies {
     //implementation "org.citypay.ctpj:ctpj-core:$ctpjVersion"
     //implementation fileTree(dir: 'D:\\bitDev\\ctp-wallet_android\\ext_jar\\', include: ['*.jar'])
     //implementation 'D:\\bitDev\\ctp-wallet_android\\ext_jar\\org.citypay.ctpj:ctpj-core:0.16.3'
-    api fileTree(include: ['*.jar'], dir: 'libs')
+    //api fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'androidx.annotation:annotation:1.1.0'  // 2019-10-08
-    implementation "org.dashj:dashj-core:$ctpjVersion"
+    //implementation "org.dashj:dashj-core:$ctpjVersion"
     implementation 'com.scottyab:secure-preferences-lib:0.1.4'
-
+    implementation project(path: ':core')
     implementation project(path: ':common')
+    //api fileTree(dir: 'ctpj')
+    //api fileTree(include: ['*.jar'], dir: 'libs')
+    //compile group: 'org.citypay.ctpj', name: 'ctpj-core', version: '0.16.3'
+    //compile files('libs\\ctpj-core-0.16.3.jar')
+    //api fileTree(include: ['ctpj-core-0.16.3.jar'], dir: 'libs')
+//    implementation project(path: ':core')  // 20191011
+//    implementation project(path: ':bls')  // 20191011
 }

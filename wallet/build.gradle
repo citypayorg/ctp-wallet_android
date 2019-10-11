@@ -17,6 +17,7 @@ repositories {
 }
 
 dependencies {
+    //noinspection GradleCompatible
     implementation "com.android.support:design:$androidSupportVersion"
     implementation "com.android.support:appcompat-v7:$androidSupportVersion"
     implementation "com.android.support:support-v4:$androidSupportVersion"
@@ -33,24 +34,41 @@ dependencies {
     implementation "com.android.support:recyclerview-v7:$androidSupportVersion"
     implementation "com.android.support:cardview-v7:$androidSupportVersion"
     implementation "com.android.support:preference-v7:$androidSupportVersion"
-    implementation "com.android.support.constraint:constraint-layout:1.1.3"
+    implementation 'com.android.support.constraint:constraint-layout:2.0.0-beta2'
+    //--------------------------------------------------
     //implementation fileTree(dir: 'ext_jar', include: ['ctpj-core-0.16.3.jar'])
     //implementation fileTree(dir: 'D:\\bitDev\\ctp-wallet_android\\ext_jar\\', include: ['*.jar'])
     //implementation 'D:\\bitDev\\ctp-wallet_android\\ext_jar\\org.citypay.ctpj:ctpj-core:0.16.3'
     //implementation 'D:\\bitDev\\ctp-wallet_android\\ext_jar\\ctpj-core-0.16.3.jar'
     //implementation "org.citypay.ctpj:ctpj-core:$ctpjVersion"
-    //--------------------------------------------------
     //implementation 'ctpj-core-0.16.3.jar'
-    api fileTree(include: ['*.jar'], dir: 'libs')
-    implementation "org.dashj:dashj-core:$ctpjVersion"
+    //api fileTree(dir: 'ctpj')
+    //api fileTree(include: ['*.jar'], dir: 'libs')
+    //compile group: 'org.citypay.ctpj', name: 'ctpj-core', version: '0.16.3'
+    //compile files('libs\\ctpj-core-0.16.3.jar')
+    implementation project(path: ':core')
+    //api fileTree(include: ['ctpj-core-0.16.3.jar'], dir: 'libs')
+    //implementation files('libs\\ctpj-core-0.16.3.jar')
+    //implementation "org.dashj:dashj-core:$ctpjVersion"
+    // https://mvnrepository.com/artifact/org.bitcoinj/bitcoinj-core
+    //compile group: 'org.bitcoinj', name: 'bitcoinj-core', version: '0.13'
+    // https://mvnrepository.com/artifact/org.bitcoinj/bitcoinj-core
+    //compile group: 'org.bitcoinj', name: 'bitcoinj-core', version: '0.14'
+    //implementation "org.bitcoinj:bitcoin-core:0.15.5"
+    //compile group: 'org.bitcoinj', name: 'bitcoinj-core', version: '0.15.5'
+
+//    implementation project(path: ':core')  // 20191011
+//    implementation project(path: ':bls')  // 20191011
+
+
     //--------------------------------------------------
-    implementation 'com.google.protobuf:protobuf-java:3.4.0'
-    implementation 'com.google.guava:guava:27.0.1-android'
-    implementation 'com.google.zxing:core:3.3.3'
+    implementation 'com.google.protobuf:protobuf-java:3.10.0'
+    implementation 'com.google.guava:guava:28.1-jre'
+    implementation 'com.google.zxing:core:3.4.0'
     implementation 'com.squareup.okhttp:okhttp:2.7.5'
     implementation 'com.squareup.okhttp:logging-interceptor:2.7.5'
-    implementation 'com.squareup.moshi:moshi:1.5.0'
-    implementation 'org.slf4j:slf4j-api:1.7.25'
+    implementation 'com.squareup.moshi:moshi:1.8.0'
+    implementation "org.slf4j:slf4j-api:${var}"
     implementation('com.github.tony19:logback-android-classic:1.1.1-6') {
         exclude(group: 'com.google.android', module: 'android')
     }
@@ -65,26 +83,26 @@ dependencies {
 
     implementation 'com.android.support:multidex:1.0.3'
 
-    implementation ('com.google.firebase:firebase-inappmessaging-display:17.2.0') {
+    implementation ('com.google.firebase:firebase-inappmessaging-display:19.0.1') {
         exclude group: 'com.google.protobuf', module: 'protobuf-lite'
         exclude group: 'com.google.firebase', module: 'protolite-well-known-types'
     }
-    implementation 'com.google.firebase:firebase-core:16.0.9'
+    implementation 'com.google.firebase:firebase-core:17.2.0'
 
     testImplementation 'junit:junit:4.12'
     //Espresso
     androidTestImplementation ('com.android.support.test:runner:1.0.1') {
         exclude group: 'com.android.support', module: 'support-annotations'
     }
-    androidTestImplementation ('com.android.support.test.espresso:espresso-core:3.0.1') {
+    androidTestImplementation ('com.android.support.test.espresso:espresso-core:3.0.2') {
         exclude group: 'com.google.code.findbugs', module: 'jsr305'
         exclude group: 'com.android.support', module: 'support-annotations'
     }
-    androidTestImplementation ('com.android.support.test.espresso:espresso-intents:3.0.1') {
+    androidTestImplementation ('com.android.support.test.espresso:espresso-intents:3.0.2') {
         exclude group: 'com.google.code.findbugs', module: 'jsr305'
         exclude group: 'com.android.support', module: 'support-annotations'
     }
-    implementation files('libs\\ctpj-core-0.16.3.jar')
+
 }
 
 
@@ -133,38 +151,11 @@ android {
             res.srcDirs = ['res']
             assets.srcDirs = ['assets']
         }
-        test {
-            java.srcDirs = ['test']
-            resources.srcDirs = ['test']
-        }
-        androidTest {
-            java.srcDirs = ['androidTest']
-            resources.srcDirs = ['androidTest/java']
-            res.srcDirs = ['androidTest/testNet3/res']
-        }
-        _testNet3 {
-            res.srcDirs = ["testNet3/res"]
-        }
-        beta {
-            res.srcDirs = ["beta/res"]
-        }
-        devNet {
-            res.srcDirs = ["devNet/res"]
-        }
     }
     flavorDimensions "default"
     productFlavors {
-        beta {
-            applicationId = "org.citypay.wallet.beta"
-        }
         prod {
-            applicationId = "org.darkcoin.wallet"
-        }
-        _testNet3 {
-            applicationId = "org.darkcoin.wallet_test"
-        }
-        devNet {
-            applicationId = "org.darkcoin.wallet.devnet"
+            applicationId = "org.citypay.wallet"
         }
     }
     externalNativeBuild {
@@ -186,6 +177,11 @@ android {
     dexOptions {
         preDexLibraries true
     }
+    compileOptions {
+        sourceCompatibility = '1.8'
+        targetCompatibility = '1.8'
+    }
+    buildToolsVersion = '28.0.3'
 }
 
 clean {

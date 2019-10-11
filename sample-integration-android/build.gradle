@@ -12,7 +12,15 @@ dependencies {
     //implementation fileTree(dir: 'D:\\bitDev\\ctp-wallet_android\\ext_jar\\', include: ['*.jar'])
     //implementation 'D:\\bitDev\\ctp-wallet_android\\ext_jar\\org.citypay.ctpj:ctpj-core:0.16.3'
     //implementation 'D:\\bitDev\\ctp-wallet_android\\ext_jar\\ctpj-core-0.16.3.jar:ctpj-core:$ctpjVersion'
-    api fileTree(include: ['*.jar'], dir: 'libs')
+    //api fileTree(include: ['*.jar'], dir: 'libs')
+    //api fileTree(include: ['*.jar'], dir: 'libs')
+    //compile group: 'org.citypay.ctpj', name: 'ctpj-core', version: '0.16.3'
+    //compile files('libs\\ctpj-core-0.16.3.jar')
+    implementation project(path: ':core')
+//    api fileTree(include: ['ctpj-core-0.16.3.jar'], dir: 'libs')
+//    implementation project(path: ':core')  // 20191011
+//    implementation project(path: ':bls')  // 20191011
+
 }
 
 android {
